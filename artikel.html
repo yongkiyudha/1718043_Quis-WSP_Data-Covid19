@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Data penyebaran virus corona atau covid-19 di indonesia"/>
+    <!-- Icon -->
+    <link rel="shortcut icon" href="images/icon.png">
+    <link rel="apple-touch-icon" href="images/icon.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Info COVID-19</title>
+</head>
+<body class="bg-light">
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">COVID-19</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="index.html">Beranda <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link active" href="artikel.html">Berita Terkini  <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="provinsi.html">Provinsi</a>
+            </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Akhir navbar -->
+
+        <section id="Artikel" class="pt-2 pb-5">
+            <div class="container pt-3">
+                <div class="d-flex align-items-center p-3 my-3 text-white-50 bg-dark rounded box-shadow">
+                    <div class="lh-100">
+                      <h4 class="mb-0 text-white lh-100">Berita Terkini</h4>
+                      
+                    </div>
+                </div>
+                <div class="my-3 p-3 bg-white rounded box-shadow">
+                    <div id="dataArtikel">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    <!-- Spinners -->
+    <section id="spinner">
+        <div class="d-flex justify-content-center">
+            <div class="spinner-grow" role="status">
+                <span class="sr-only">Loading...</span>
+            </div> 
+            <div class="spinner-grow" role="status">
+                <span class="sr-only">Loading...</span>
+            </div> 
+            <div class="spinner-grow" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+            <div class="spinner-grow" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+            <div class="spinner-grow" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+    </section>
+    <!-- Akhir spinners -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/artikel.js"></script>
+    <script src="js/spinner.js"></script>
+</body>
+</html>
